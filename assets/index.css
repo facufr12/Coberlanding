@@ -665,7 +665,6 @@ h2.card-title {
 .submit:active {
   background-color: #7b3092;
 }
-
 @media only screen and (max-width: 768px) {
   .hero,
   .logo {
@@ -686,40 +685,49 @@ h2.card-title {
   }
 
   .cut {
-    width: 39%; /* Ajustar el ancho al 39% para móviles */
+    width: 90%; /* Ajustar el ancho al 90% para móviles */
     max-width: 100%; /* No exceder el ancho del contenedor */
   }
+
   .logocober {
-    margin-left: 10%;
-    margin-right:10%
+    margin: 0 auto; /* Centrar la imagen */
+    width: 80%; /* Ajustar el ancho para dispositivos móviles */
   }
+
   .btn-nav-bar {
     margin-top: 10px;
     width: 100%; /* Asegurar que los botones ocupen el ancho completo */
   }
+
   .contenedor {
     align-items: center;
   }
+
   .hero {
     padding: 20px; /* Añadir padding para dispositivos móviles */
     border-radius: 0;
   }
+
   .contenido-hero {
     text-align: center;
     padding: 0 10px;
   }
+
   .input-container {
     margin: 0 0 20px 0; /* Ajustar margen */
     width: 100%; /* Asegurar que los contenedores ocupen el 100% */
   }
+
   .input-group {
     flex-direction: column;
     width: 100%;
   }
+
   .input {
     font-size: 16px;
     width: 100%; /* Inputs ocupan el 100% del ancho */
   }
+
   .button1,
   .button2,
   .submit {
@@ -727,11 +735,12 @@ h2.card-title {
     padding: 15px;
   }
 }
+
 @media (max-width: 768px) {
   body {
     background-position: left top;
     width: auto;
-    height: 100vh;
+    height: auto; /* Cambiar a auto para contenido dinámico */
   }
 
   .btn-nav-bar {
@@ -748,6 +757,7 @@ h2.card-title {
     margin-top: 2rem;
   }
 }
+
 @media (max-width: 480px) {
   body {
     background-position: center;

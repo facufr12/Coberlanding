@@ -9,18 +9,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="assets/imagenes/favicon.png">
         <meta name="theme-color" content="#7b3092">
-        
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
-        
         <!-- CSS -->
         <link rel="stylesheet" href="assets/index.css" media="print" onload="this.media='all'">
     </head>
-    
         <!-- Google tag (gtag.js) -->
-
         <div class="todo">
             <div class="nav-bar">
                 <div class="logo">
@@ -47,22 +43,22 @@
                     </div>
                     <div class="form">
                         <div class="title">Solicitá Asesor</div>
-                        <div class="subtitle">Cotizá tu Plan de MEDICINA PREPAGA </div>
+                        <div class="subtitle">Cotizá tu Plan de MEDICINA PREPAGA</div>
                         <div class="input-group">
                             <div class="input-container ic2">
-                                <input id="nombre" class="input" type="text" placeholder="" />
+                                <input id="nombre" class="input" type="text" placeholder="" autocomplete="given-name" />
                                 <div class="cut"></div>
                                 <label for="nombre" class="placeholder">Nombre</label>
                             </div>
                             <div class="input-container ic2">
-                                <input id="titular" class="input" type="text" placeholder="" />
+                                <input id="titular" class="input" type="text" placeholder="" autocomplete="age" />
                                 <div class="cut"></div>
                                 <label for="titular" class="placeholder">Edad del Titular</label>
                             </div>
                         </div>
                         <div class="input-group">
                             <div class="input-container ic2">
-                                <input id="afiliacion" class="input" type="text" placeholder="" />
+                                <input id="afiliacion" class="input" type="text" placeholder="" autocomplete="organization-title" />
                                 <div class="cut"></div>
                                 <label for="afiliacion" class="placeholder">Tipo de Afiliación</label>
                             </div>
@@ -74,32 +70,30 @@
                         </div>   
                         <div class="input-group">
                             <div class="input-container ic2">
-                                <input id="localidad" class="input" type="text" placeholder="" />
+                                <input id="localidad" class="input" type="text" placeholder="" autocomplete="address-level2" />
                                 <div class="cut"></div>
                                 <label for="localidad" class="placeholder">Localidad</label>
                             </div>
                             <div class="input-container ic2">
-                                <input id="whatsapp" class="input" type="text" placeholder="" />
+                                <input id="whatsapp" class="input" type="tel" placeholder="" autocomplete="tel" />
                                 <div class="cut"></div>
                                 <label for="whatsapp" class="placeholder">Whatsapp</label>
                             </div>
                         </div>
-                        
                         <div class="input-group">
-                        <div class="input-container ic2">
-                            <input id="email" class="input" type="text" placeholder="" />
-                            <div class="cut"></div>
-                            <label for="email" class="placeholder">Email</label>
-                        </div>        
-                      
-                    </div>    
-                    <button type="text" class="submit">Solicitar Asesor</button>
-                </div>     
+                            <div class="input-container ic2">
+                                <input id="email" class="input" type="email" placeholder="" autocomplete="email" />
+                                <div class="cut"></div>
+                                <label for="email" class="placeholder">Email</label>
+                            </div>        
+                        </div>
+                        <button type="submit" class="submit">Solicitar Asesor</button>
+                    </div>
+                    
                       </div>  
                 </div>
             </div>
         </div>
-    
     </div>
         <h2 style="color:#ffffff; margin-left:5px;margin-right:5px; text-align:center">Conocé Nuestros Planes de <b>Medicina Prepaga</b> y sus principales Prestadores médicos.</h2>
         <div class="card-container ">
@@ -593,9 +587,6 @@
                             </div>
                         </div>
                     </div>
-
-                    
-
                     <div class="btn-zipper" style="flex-wrap: wrap-reverse;">
                         <a href="https://miplancober.com/#lead"><button class="btn-cotizar-asesor">Solicitar asesor</button></a>
                         <a href="https://miplancober.com/#lead"><button class="btn-cotizar-plan-zipper">Cotizar Plan</button></a>

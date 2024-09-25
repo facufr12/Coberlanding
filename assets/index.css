@@ -665,9 +665,9 @@ h2.card-title {
 .submit:active {
   background-color: #7b3092;
 }
+
 @media only screen and (max-width: 768px) {
-  .hero,
-  .logo {
+  .hero {
     max-width: 100%;
     width: 100%; /* Asegura que el ancho sea del 100% */
   }
@@ -685,18 +685,23 @@ h2.card-title {
   }
 
   .cut {
-    width: 90%; /* Ajustar el ancho al 90% para móviles */
+    width: 35%; /* Ajustar el ancho al 35% para móviles */
     max-width: 100%; /* No exceder el ancho del contenedor */
   }
 
   .logocober {
     margin: 0 auto; /* Centrar la imagen */
-    width: 80%; /* Ajustar el ancho para dispositivos móviles */
+    width: 120%; /* Ajustar el ancho para dispositivos móviles */
+    max-width: 300px; /* Limitar el ancho máximo */
+    height: auto; /* Mantener la proporción */
+    display: block; /* Asegurar que se muestre como un bloque */
   }
 
   .btn-nav-bar {
     margin-top: 10px;
     width: 100%; /* Asegurar que los botones ocupen el ancho completo */
+    font-size: 18px; /* Aumentar el tamaño de la letra en los botones */
+    padding: 20px; /* Aumentar el padding para más espacio */
   }
 
   .contenedor {
@@ -720,7 +725,7 @@ h2.card-title {
 
   .input-group {
     flex-direction: column;
-    width: 100%;
+    width: 100%; /* Asegurar que el grupo de inputs ocupe el 100% del ancho */
   }
 
   .input {
@@ -733,36 +738,35 @@ h2.card-title {
   .submit {
     width: 100%;
     padding: 15px;
+    font-size: 18px; /* Aumentar el tamaño de la letra en los botones */
+  }
+
+  .subtitle {
+    margin-bottom: 2rem; /* Agregar margen inferior en móviles */
+  }
+
+  body {
+    background-position: center; /* Mover la imagen de fondo al centro en móviles */
   }
 }
 
 @media (max-width: 768px) {
-  body {
-    background-position: left top;
-    width: auto;
-    height: auto; /* Cambiar a auto para contenido dinámico */
-  }
-
   .btn-nav-bar {
     display: none; /* Botones de navegación ocultos en móviles */
   }
 
   .form {
-    width: 90%; /* Ajustar el ancho del formulario */
-    max-width: 100%; /* Ancho máximo para no exceder */
-    height: auto; /* Altura automática para contenido */
+    width: 100%; /* Asegurar que el formulario ocupe todo el ancho */
+    height: 100%; /* Altura automática para contenido */
     display: block;
-    padding: 20px; /* Añadir padding interno */
-    margin: 0 auto; /* Centrar el formulario */
-    margin-top: 2rem;
+    padding: 25px; /* Añadir padding interno */
+    margin: 0; /* Eliminar margen para que ocupe todo el ancho */
+    margin-top: 4rem; /* Mantener el margen superior */
+    font-family: "Montserrat", sans-serif;
   }
 }
 
 @media (max-width: 480px) {
-  body {
-    background-position: center;
-  }
-
   footer {
     background-color: #000;
   }

@@ -1,3 +1,29 @@
+@font-face {
+  font-family: "Mont-Heavy";
+  src: url('./fonts/MontHeavy.otf');
+
+}
+
+@font-face {
+font-family: "Mont-ExtraLight";
+  src: url('./fonts/MontExtraLight.otf');
+
+}
+
+
+
+body {
+  background-image: url("/assets/imagenes/miplancober.webp");
+  background-position: center; /* Centra la imagen */
+  width: 100%;
+  height: 100vh; /* Usa el alto completo de la ventana del navegador */
+  margin: 0;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover; /* Asegura que la imagen cubra todo el espacio */
+  font-family: "Mont-Heavy";
+}
+
 .contenedor,
 .nav-bar {
   flex-wrap: wrap;
@@ -43,18 +69,6 @@ width:20rem;
   --taylored: #7f8040;
   --wagon: #24697d;
 }
-body {
-  background-image: url("/assets/imagenes/miplancober.webp");
-  background-position: center; /* Centra la imagen */
-  width: 100%;
-  height: 100vh; /* Usa el alto completo de la ventana del navegador */
-  margin: 0;
-  background-repeat: no-repeat;
-  background-color: black;
-  background-size: cover; /* Asegura que la imagen cubra todo el espacio */
-  font-family: "Montserrat", sans-serif;
-}
-
 h2,
 th {
   font-weight: 400;
@@ -351,7 +365,7 @@ h2.card-title {
   height: 65px;
   font-size: 15px;
 }
-.accordion-title:not(:nth-last-child(2))::after {
+.accordion-title:not(:nth-last-child(2))::after {AC
   border-bottom-color: #4c5157;
   border-right-color: transparent;
 }
@@ -547,7 +561,7 @@ h2.card-title {
   width: 27rem; 
   padding: 40px;
   margin-bottom: 5rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Mont-Heavy";
 }
 
 .form span,

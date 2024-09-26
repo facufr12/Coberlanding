@@ -9,9 +9,6 @@ font-family: "Mont-ExtraLight";
   src: url('./fonts/MontExtraLight.otf');
 
 }
-
-
-
 body {
   background-image: url("/assets/imagenes/miplancober.webp");
   background-position: center; /* Centra la imagen */
@@ -61,7 +58,7 @@ width:20rem;
 .placeholder,
 .subtitle,
 .title {
-  font-family: sans-serif;
+  font-family: "Mont-Heavy";
 }
 :root {
   --zipper: #7b3092;
@@ -779,7 +776,7 @@ h2.card-title {
     padding: 25px; /* Añadir padding interno */
     margin: 0; /* Eliminar margen para que ocupe todo el ancho */
     margin-top: 4rem; /* Mantener el margen superior */
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mont-Heavy";
   }
 }
 
